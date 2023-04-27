@@ -494,7 +494,7 @@ a {
     max-width: 100%;
 }
 
-.member-item:hover .member-item__img  {
+.member-item:hover .member-item__img {
     transform: scale(1.1);
 }
 
@@ -545,7 +545,7 @@ a {
     border-radius: 50%;
     border: 1px solid #575f66;
     outline: none;
-    color: #575F66;
+    color: #575f66;
     background: #fff;
 }
 
@@ -559,4 +559,45 @@ a {
 
 .member__control-next-icon {
     rotate: 180deg;
+}
+
+/* ==================== Install ==================== */
+.install {
+    margin-top: 180px;
+}
+
+.install__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    background: #2e80ce;
+    border-radius: 4px;
+}
+
+.install__img {
+    display: block;
+    margin-top: -95px;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading,
+.install__desc {
+    color: #fff;
+}
+
+.install__heading {
+    max-width: 489px;
+}
+
+.install__row {
+    display: flex;
+    column-gap: 28px;
+    margin-top: 38px;
 }
